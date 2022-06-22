@@ -24,6 +24,19 @@
     background-color: rgba(225, 143, 126, 0.5);
     height: 90px;
 }
+.logo{
+   height: 31px;
+   width: 180px;
+    font-family: "Magra";
+}
+.nav-list{border:1px solid red;
+
+    display:flex;
+}
+.nav-link{
+    font-family: "Red Hat Text";
+
+}
 
 .knopka {
     width: 103px;

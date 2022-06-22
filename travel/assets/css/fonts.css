@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: local('ITC Franklin Gothic Medium'), local('ITC-Franklin-Gothic-Medium'), url('../assets/fonts/ITCFranklinGothicStd-Med.woff2') format('woff2'), url('../assets/fonts/ITCFranklinGothicStd-Med.woff') format('woff'), url('../assets/fonts/ITCFranklinGothicStd-Med.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: local('Calibri Regular'), local('Calibri-Regular'), url('../assets/fonts/Calibri.woff2') format('woff2'), url('../assets/fonts/Calibri.woff') format('woff'), url('../assets/fonts/Calibri.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: local('Arial Regular'), local('Arial-Regular'), url('../assets/fonts/ArialMT.woff2') format('woff2'), url('../assets/fonts/ArialMT.woff') format('woff'), url('../assets/fonts/ArialMT.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Red Hat Text';
+  src: local('Red Hat Text Medium'), local('Red Hat Text-Medium'), url('..//fonts/RedHatText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Magra';
+  src: local('Magra Bold'), local('Magra-Bold'), url('..//fonts/Magra-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
