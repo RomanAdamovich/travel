@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 }
 
 .container {
@@ -10,36 +11,51 @@
     margin: 0 auto;
 }
 
-.body {}
-
 .header {
     border: 1px solid red;
-    height: 90px;
+    z-index: 0;
 }
 
 .header-container {
+    position: relative;
+    border: 1px solid red;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: rgba(225, 143, 126, 0.5);
+    background-olor: rgba(225, 143, 126, 0.5);
     height: 90px;
+    z-index: 0;
 }
-.logo{
-   height: 31px;
-   width: 180px;
+
+.logo {
     font-family: "Magra";
+    color: white;
+    font-size: 32px;
+    border: none;
+    margin-left: 120px;
 }
-.nav-list{border:1px solid red;
 
-    display:flex;
+.travelPortal {
+    margin-right: 0px;
 }
-.nav-link{
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 527px;
+}
+
+.nav-link {
+    margin-left: 2px;
     font-family: "Red Hat Text";
-
+    font-size: 16px;
+    color: white;
 }
 
 .knopka {
     width: 103px;
+    font-family: "Red Hat Text";
+    margin-right: 120px;
 }
 
 .knopka-list {
@@ -47,4 +63,20 @@
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
+    font-family: "Red Hat Text";
+    font-size: 16px;
+    color: white;
+}
+
+
+/*-------------main-----------*/
+
+
+/*-------------Title-section-------*/
+
+.title-section {
+    position: relative;
+    height: 765px;
+    background: url(..//img/garrett-parker-dbCOU-unsplash\ 1.png) 0 -90px/cover no-repeat;
+    z-index: 10;
 }
